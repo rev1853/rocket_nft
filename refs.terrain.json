@@ -1,0 +1,18 @@
+{
+  "localterra": {
+    "cw721-metadata-onchain": {
+      "codeId": "30",
+      "contractAddresses": {
+        "default": "terra1ytdpedv8tkt364mzjyyrdw3nqcj3nlw7axvtfpp9wwcyjnfeclxqt7tqxn"
+      }
+    }
+  },
+  "testnet": {
+    "cw721-metadata-onchain": {
+      "codeId": "9342",
+      "contractAddresses": {
+        "default": "terra1s3xn0hrsym822567cskmcfac23jrtpplanyqnxlv0t0hnc2gsk9sn0lzec"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_global": {
+    "_base": {
+      "store": {
+        "fee": {
+          "gasLimit": 5000000,
+          "amount": {
+            "uluna": 1000000
+          }
+        }
+      },
+      "instantiation": {
+        "fee": {
+          "gasLimit": 2000000,
+          "amount": {
+            "uluna": 1000000
+          }
+        },
+        "instantiateMsg": {
+          "name": "Rocket's NFTs",
+          "symbol": "RCKT",
+          "minter": "terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v"
+        }
+      }
+    }
+  },
+  "mainnet": {
+    "_connection": {
+      "chainID": "phoenix-1",
+      "URL": "https://lcd.terra.dev"
+    }
+  },
+  "testnet": {
+    "_connection": {
+      "chainID": "pisco-1",
+      "URL": "https://pisco-lcd.terra.dev"
+    }
+  },
+  "localterra": {
+    "_connection": {
+      "chainID": "localterra",
+      "URL": "http://localhost:1317"
+    }
+  }
+}

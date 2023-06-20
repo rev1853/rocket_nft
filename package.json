@@ -1,0 +1,17 @@
+{
+  "name": "my-terra-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@terra-money/terra.js": "^3.1.9",
+    "@terra-money/terrain": "0.8.0",
+    "@terra-money/wallet-controller": "^4.0.0",
+    "@terra-money/wallet-provider": "^4.0.0",
+    "@terra-money/web-extension-interface": "^4.0.0"
+  },
+  "workspaces": [
+    "frontend"
+  ],
+  "author": "",
+  "license": "ISC"
+}
